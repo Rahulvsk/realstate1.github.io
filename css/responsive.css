@@ -1,0 +1,162 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-bg h1 {
+        font-size: 55px;
+    }
+    .explore .explore_box h4 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.informisition li a {
+        padding: 0 16px;
+    }
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 41px;
+        line-height: 57px;
+    }
+    .text-bg span {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .titlepage h2 {
+        font-size: 36px;
+    }
+    .explore .explore_box h4 {
+        padding-top: 20px;
+    }
+    .reader {
+        width: initial;
+    }
+    .bottom_form .enter {
+        width: 58%;
+    }
+    .sub_btn {
+        max-width: 184px;
+    }
+    .cont h3 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    ul.informisition li a {
+        padding: 0 5px;
+        font-size: 13px;
+    }
+    .text-bg h1 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 25px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .explore .explore_box h4 {
+        font-size: 18px;
+    }
+    .text-bg span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .back_img {
+        margin-top: 30px;
+    }
+    .reader {
+        max-width: inherit;
+        margin-right: 0;
+    }
+    .weight {
+        padding-bottom: 30px;
+    }
+    .cont h3 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .bottom_form .enter {
+        width: 60%;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    ul.informisition {
+        display: none;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: inherit;
+    }
+    .text-bg h1 {
+        padding-top: 60px;
+        font-size: 31px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .find .titlepage {
+        margin: 0;
+        padding: 50px 15px;
+    }
+    .explore .explore_box {
+        justify-content: inherit;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .back_img {
+        margin-top: 30px;
+    }
+    .reader {
+        max-width: inherit;
+        margin-right: 0;
+    }
+    .weight {
+        padding-bottom: 30px;
+    }
+    .sub_btn {
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+    .text-bg span {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .titlepage h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .cont h3 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+}
+
